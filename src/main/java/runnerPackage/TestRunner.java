@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @CucumberOptions(
-		features="C:\\Users\\hp\\eclipse-workspace\\FreeCRMBDDFramework\\src\\main\\java\\Features\\deals.feature"
+		features="C:\\Users\\hp\\eclipse-workspace\\FreeCRMBDDFramework\\src\\main\\java\\Features\\dealMap.feature"
 		,glue= {"stepDefination"},
 		format= {"pretty", "html:test-output", "json:json_output\\cucumber.json", "junit:junit_xml\\cucumber.xml"},
 		monochrome=true,

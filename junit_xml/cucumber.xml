@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.296098">
-    <testcase classname="Testing deal Page of Cogmento" name="Cogmento create deal details" time="21.296098">
-        <failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=96.0.4664.45)&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'SUMITGOYAL', ip: '192.168.81.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [214be4ffeda73233f9e455c324d1ea54, findElement {using=xpath, value=//*[@id=&quot;ui&quot;]/div/div/form/div/div[3]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53569/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 214be4ffeda73233f9e455c324d1ea54&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;&#10;&#9;at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;&#10;&#9;at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)&#13;&#10;&#9;at stepDefination.DealstepDefination.user_clicks_on_Login(DealstepDefination.java:56)&#13;&#10;&#9;at ✽.Then User clicks on Login(C:/Users/hp/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/deals.feature:9)&#13;&#10;">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.854622">
+    <testcase classname="Testing deal Page of Cogmento" name="Cogmento create deal details" time="25.854622">
+        <system-out>
             <![CDATA[Given User is already on login page.........................................passed
 When title of login page is Cogmento CRM....................................passed
 Then user enters username and password......................................passed
-Then User clicks on Login...................................................failed
-Then User is on homepage....................................................skipped
-Then User clicks on deals link..............................................skipped
-Then User clicks create button..............................................skipped
-Then user enters deal details...............................................skipped
-Then user click save........................................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=96.0.4664.45)
-Build info: version: '4.0.0', revision: '3a21814679'
-System info: host: 'SUMITGOYAL', ip: '192.168.81.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [214be4ffeda73233f9e455c324d1ea54, findElement {using=xpath, value=//*[@id="ui"]/div/div/form/div/div[3]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:53569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53569/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 214be4ffeda73233f9e455c324d1ea54
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at stepDefination.DealstepDefination.user_clicks_on_Login(DealstepDefination.java:56)
-	at ✽.Then User clicks on Login(C:/Users/hp/eclipse-workspace/FreeCRMBDDFramework/src/main/java/Features/deals.feature:9)
+Then User clicks on Login...................................................passed
+Then User is on homepage....................................................passed
+Then User clicks on deals link..............................................passed
+Then User clicks create button..............................................passed
+Then user enters deal details...............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
